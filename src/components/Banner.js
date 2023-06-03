@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from '../assets/avatar.svg'
+import Mypic from '../assets/My project-2.png'
 import {FaGithub,FaLinkedin} from 'react-icons/fa'
 import { TypeAnimation } from 'react-type-animation';
 import {motion} from 'framer-motion'
@@ -77,8 +77,8 @@ const Banner = () => {
           variants={fadeIn('down',0.5)}
           initial ='hidden'
           whileInView={'show'}
-          className='hidden lg:flex flex-1 max-w-[320px] lg:max-w-[482px]'>
-            <img src={Image} alt="" />
+          className='hidden lg:flex flex-1 max-w-[380px] lg:max-w-[520px] '>
+            <img src={Mypic} alt="" />
           </motion.div>
         </div>
       </div>
