@@ -2,7 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+  cursor: none;
+}
 .btn {
+  cursor: none;
   background: linear-gradient(
     92.23deg,
     #ff56f6 21.43%,
@@ -68,4 +72,18 @@
   .section {
     @apply py-8 lg:py-24 lg:h-screen flex items-center;
   }
+}
+
+
+/* cursor */
+.cursor {
+  background-color: #111;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 999;
 }

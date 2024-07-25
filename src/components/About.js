@@ -67,12 +67,12 @@ const About = () => {
                 </div>
               </div>
             </div>
-            <div className="flex gap-x-8 items-center">
+            {/* <div className="flex gap-x-8 items-center">
               <button className="btn btn-lg">Contact me</button>
               <a href="#" className="text-gradient btn-link">
                 MY CV
               </a>
-            </div>
+            </div> */}
           </motion.div>
         </div>
       </div>
