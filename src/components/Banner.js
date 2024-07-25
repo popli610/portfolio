@@ -67,11 +67,7 @@ const Banner = () => {
                 onMouseLeave={leave}
                 className="btn btn-lg"
               >
-                <Link
-                  to="contact"
-                  smooth={true}
-                  spy={true}
-                >
+                <Link to="contact" smooth={true} spy={true}>
                   Contact Me
                 </Link>
               </button>
@@ -94,13 +90,28 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0"
             >
-              <a href="#" onMouseEnter={textEnter} on onMouseLeave={leave}>
+              <a
+                href="https://github.com/popli610"
+                onMouseEnter={textEnter}
+                on
+                onMouseLeave={leave}
+              >
                 <FaGithub size={"2rem"} />
               </a>
-              <a href="#" onMouseEnter={textEnter} on onMouseLeave={leave}>
+              <a
+                href="https://www.linkedin.com/in/popli610/"
+                onMouseEnter={textEnter}
+                on
+                onMouseLeave={leave}
+              >
                 <FaLinkedin size={"2rem"} />
               </a>
-              <a href="#" onMouseEnter={textEnter} on onMouseLeave={leave}>
+              <a
+                href="https://leetcode.com/u/popli610/"
+                onMouseEnter={textEnter}
+                on
+                onMouseLeave={leave}
+              >
                 <SiLeetcode style={{ fontSize: "2rem" }} />
               </a>
             </motion.div>
@@ -112,7 +123,7 @@ const Banner = () => {
             whileInView={"show"}
             className="hidden lg:flex flex-1 max-w-[380px] lg:max-w-[520px] "
           >
-            <img src={Mypic} alt=""/>
+            <img src={Mypic} alt="" />
           </motion.div>
         </div>
       </div>
