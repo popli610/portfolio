@@ -52,8 +52,10 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="mb-8 max-w-lg mx-auto lg:mx-0"
             >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
-              unde consequuntur quisquam, eveniet dolor, tempora
+              Passionate and dedicated software developer with experience in
+              frontend and backend technologies. My goal is to leverage
+              technology to solve real-world problems and create impactful
+              solutions.
             </motion.p>
             <motion.div
               variants={fadeIn("up", 0.6)}
