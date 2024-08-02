@@ -64,15 +64,15 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0"
             >
-              <button
-                onMouseEnter={buttonEnter}
-                onMouseLeave={leave}
-                className="btn btn-lg"
-              >
-                <Link to="contact" smooth={true} spy={true}>
+              <Link to="contact" smooth={true} spy={true}>
+                <button
+                  onMouseEnter={buttonEnter}
+                  onMouseLeave={leave}
+                  className="btn btn-lg"
+                >
                   Contact Me
-                </Link>
-              </button>
+                </button>
+              </Link>
               <a
                 href="/Nishant_resume.pdf"
                 className="text-gradient btn-link"

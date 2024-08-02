@@ -25,6 +25,9 @@ const Work = () => {
                 Here are some of my recent projects that showcase my skills and
                 experience in full-stack web development.
               </p>
+              <a href="https://github.com/popli610">
+                <button className="btn btn-sm">View all projects</button>
+              </a>
             </div>
             <div className="group relative overflow-hidden border-2 border-white/50 rounded-xl">
               <div className="group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
